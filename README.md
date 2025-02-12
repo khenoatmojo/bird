@@ -1,1 +1,1 @@
-# ZOO-NFT
+# ZOO NFT Project
