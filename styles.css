@@ -16,10 +16,13 @@ body {
 header {
   background: #87CEEB;
   padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .logo img {
-  height: 50px;
+  height: 50px; /* Sesuaikan ukuran logo */
 }
 
 nav ul {
@@ -27,7 +30,6 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
 }
 
 nav ul li {
@@ -68,6 +70,22 @@ nav ul li a {
   margin-top: 20px;
 }
 
+/* About Section */
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 /* Tokenomics Section */
 .tokenomics {
   padding: 50px 0;
@@ -106,6 +124,27 @@ nav ul li a {
 .chart ul {
   list-style: none;
   padding: 0;
+}
+
+/* Burning Section */
+.burning {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.burning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.burning ul {
+  list-style: none;
+  padding: 0;
+}
+
+.burning ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
 }
 
 /* Utility Section */
